@@ -2,11 +2,14 @@ def fizzbuzz(input):
 
     if (input % 3 == 0):
         if (input % 5 == 0):
-            print("FizzBuzz")
+            return "FizzBuzz"
         else:
-            print("Fizz")
+            return "Fizz"
     else:
         if (input % 5 == 0):
-            print("Buzz")
+            return "Buzz"
         else:
-            print(input)
+            return input
+
+i = input("Here: ")
+fizzbuzz(i)
