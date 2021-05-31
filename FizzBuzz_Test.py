@@ -10,3 +10,6 @@ class TestClass:
 
     def test_three(self):
         assert FizzBuzz.fizzbuzz(1) == 1
+
+    def test_four(self):
+        assert FizzBuzz.fizzbuzz(3) == "Fizz"
