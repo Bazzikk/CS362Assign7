@@ -1,12 +1,14 @@
 def fizzbuzz(input):
-    
-    if (input % 3 == 0):
-        if (input % 5 == 0):
-            return "FizzBuzz"
+    if (input > 0):
+        if (input % 3 == 0):
+            if (input % 5 == 0):
+                return "FizzBuzz"
+            else:
+                return "Fizz"
         else:
-            return "Fizz"
+            if (input % 5 == 0):
+                return "Buzz"
+            else:
+                return input
     else:
-        if (input % 5 == 0):
-            return "Buzz"
-        else:
-            return input
+        return None
