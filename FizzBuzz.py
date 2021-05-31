@@ -1,5 +1,5 @@
 def fizzbuzz(input):
-    if (input > 0):
+    if (input > 0 and input <= 100):
         if (input % 3 == 0):
             if (input % 5 == 0):
                 return "FizzBuzz"
