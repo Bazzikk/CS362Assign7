@@ -1,5 +1,5 @@
 def fizzbuzz(input):
-
+    
     if (input % 3 == 0):
         if (input % 5 == 0):
             return "FizzBuzz"
@@ -10,6 +10,3 @@ def fizzbuzz(input):
             return "Buzz"
         else:
             return input
-
-i = input("Here: ")
-fizzbuzz(i)
