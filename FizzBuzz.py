@@ -1,14 +1,14 @@
-def fizzbuzz(input):
-    if (input > 0 and input <= 100):
-        if (input % 3 == 0):
-            if (input % 5 == 0):
+def fizzbuzz(num):
+    if (num > 0 and num <= 100):
+        if (num % 3 == 0):
+            if (num % 5 == 0):
                 return "FizzBuzz"
             else:
                 return "Fizz"
         else:
-            if (input % 5 == 0):
+            if (num % 5 == 0):
                 return "Buzz"
             else:
-                return input
+                return num
     else:
         return None
